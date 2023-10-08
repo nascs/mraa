@@ -79,6 +79,7 @@ typedef enum {
     MRAA_RADXA_CM5_IO = 34,         /**< Radxa CM5 IO */
     MRAA_RADXA_ROCK_3A = 35,        /**< Radxa ROCK 3 Model A */
     MRAA_RADXA_E25 = 36,            /**< Radxa E25 */
+    MRAA_RADXA_ZERO3 = 37,        /**< Radxa ZERO 3 */
 
     // USB platform extenders start at 256
     MRAA_FTDI_FT4222 = 256,         /**< FTDI FT4222 USB to i2c bridge */
@@ -440,6 +441,39 @@ typedef enum {
     MRAA_RADXA_E25_PIN24 = 24,
     MRAA_RADXA_E25_PIN26 = 26
 } mraa_radxa_e25_wiring_t;
+
+/**
+ *  Radxa ZERO3 GPIO numbering enum
+ */
+typedef enum {
+    MRAA_RADXA_ZERO3_PIN3 = 3,
+    MRAA_RADXA_ZERO3_PIN5 = 5,
+    MRAA_RADXA_ZERO3_PIN7 = 7,
+    MRAA_RADXA_ZERO3_PIN8 = 8,
+    MRAA_RADXA_ZERO3_PIN10 = 10,
+    MRAA_RADXA_ZERO3_PIN11 = 11,
+    MRAA_RADXA_ZERO3_PIN12 = 12,
+    MRAA_RADXA_ZERO3_PIN13 = 13,
+    MRAA_RADXA_ZERO3_PIN15 = 15,
+    MRAA_RADXA_ZERO3_PIN16 = 16,
+    MRAA_RADXA_ZERO3_PIN18 = 18,
+    MRAA_RADXA_ZERO3_PIN19 = 19,
+    MRAA_RADXA_ZERO3_PIN21 = 21,
+    MRAA_RADXA_ZERO3_PIN22 = 22,
+    MRAA_RADXA_ZERO3_PIN23 = 23,
+    MRAA_RADXA_ZERO3_PIN24 = 24,
+    MRAA_RADXA_ZERO3_PIN27 = 27,
+    MRAA_RADXA_ZERO3_PIN28 = 28,
+    MRAA_RADXA_ZERO3_PIN29 = 29,
+    MRAA_RADXA_ZERO3_PIN31 = 31,
+    MRAA_RADXA_ZERO3_PIN32 = 32,
+    MRAA_RADXA_ZERO3_PIN33 = 33,
+    MRAA_RADXA_ZERO3_PIN35 = 35,
+    MRAA_RADXA_ZERO3_PIN36 = 36,
+    MRAA_RADXA_ZERO3_PIN37 = 37,
+    MRAA_RADXA_ZERO3_PIN38 = 38,
+    MRAA_RADXA_ZERO3_PIN40 = 40
+} mraa_radxa_zero3_wiring_t;
 
 /**
  *  ROCKPI4 GPIO numbering enum
