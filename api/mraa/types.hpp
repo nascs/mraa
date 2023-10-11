@@ -66,6 +66,7 @@ typedef enum {
     RADXA_ROCK_3C = 27,        /**< Radxa ROCK 3 Model C */
     VISIONFIVE = 28,           /**< StarFive VisionFive board */
     RADXA_ROCK_5A = 29,        /**< Radxa ROCK 5 Model A */
+    RADXA_CM5_IO = 36,          /**< Radxa CM5 IO */
 
     FTDI_FT4222 = 256,         /**< FTDI FT4222 USB to i2c bridge */
 
@@ -203,6 +204,37 @@ typedef enum {
     RADXA_ROCK_5A_PIN38 = 38,
     RADXA_ROCK_5A_PIN40 = 40
 } RadxaRock5AWiring;
+
+/**
+ * Radxa CM5 IO GPIO numbering enum
+ */
+typedef enum {
+    RADXA_CM5_IO_PIN3 = 3,
+    RADXA_CM5_IO_PIN5 = 5,
+    RADXA_CM5_IO_PIN7 = 7,
+    RADXA_CM5_IO_PIN8 = 8,
+    RADXA_CM5_IO_PIN10 = 10,
+    RADXA_CM5_IO_PIN11 = 11,
+    RADXA_CM5_IO_PIN12 = 12,
+    RADXA_CM5_IO_PIN13 = 13,
+    RADXA_CM5_IO_PIN15 = 15,
+    RADXA_CM5_IO_PIN16 = 16,
+    RADXA_CM5_IO_PIN18 = 18,
+    RADXA_CM5_IO_PIN19 = 19,
+    RADXA_CM5_IO_PIN21 = 21,
+    RADXA_CM5_IO_PIN22 = 22,
+    RADXA_CM5_IO_PIN23 = 23,
+    RADXA_CM5_IO_PIN24 = 24,
+    RADXA_CM5_IO_PIN26 = 26,
+    RADXA_CM5_IO_PIN29 = 29,
+    RADXA_CM5_IO_PIN31 = 31,
+    RADXA_CM5_IO_PIN32 = 32,
+    RADXA_CM5_IO_PIN33 = 33,
+    RADXA_CM5_IO_PIN35 = 35,
+    RADXA_CM5_IO_PIN36 = 36,
+    RADXA_CM5_IO_PIN38 = 38,
+    RADXA_CM5_IO_PIN40 = 40
+} RadxaCM5IOWiring;
 
 /**
  *  Radxa ROCK 3 Model C GPIO numbering enum

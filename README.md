@@ -45,7 +45,8 @@ ARM
 * [phyBOARD-Wega](../master/docs/phyboard-wega.md)
 * [96Boards](../master/docs/96boards.md)
 * [ADLINK IPi-SMARC ARM](../master/docs/adlink_ipi_arm.md)
-* [Radxa ROCK 5A](../mraa//docs/radxa_rock_5a.md)
+* [Radxa ROCK 5A](../master/docs/radxa_rock_5a.md)
+* [Radxa CM5 IO](../master/docs/radxa_cm5_io.md)
 * [Rock Pi 4](../master/docs/rockpi4.md)
 
 MIPS
