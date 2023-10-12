@@ -73,6 +73,7 @@ typedef enum {
     MRAA_VISIONFIVE = 28,           /**< StarFive VisionFive board */
     MRAA_RADXA_ROCK_5A = 29,         /**< Radxa ROCK 5 Model A */
     MRAA_RADXA_CM5_IO = 36,          /**< Radxa CM5 IO */
+    MRAA_RADXA_CM5_RPI_CM4_IO = 37,          /**< Radxa CM5 RPI CM4 IO */
 
     // USB platform extenders start at 256
     MRAA_FTDI_FT4222 = 256,         /**< FTDI FT4222 USB to i2c bridge */
