@@ -73,6 +73,7 @@ typedef enum {
     RADXA_CM5_IO = 34,         /**< Radxa CM5 IO */
     RADXA_ROCK_3A = 35,        /**< Radxa ROCK 3 Model A */
     RADXA_E25 = 36,            /**< Radxa E25 */
+    RADXA_ZERO = 37,           /**< Radxa ZERO */
 
     FTDI_FT4222 = 256,         /**< FTDI FT4222 USB to i2c bridge */
 
@@ -176,6 +177,39 @@ typedef enum {
     INTEL_EDISON_GP80 = 54,
     INTEL_EDISON_GP81 = 55
 } IntelEdison;
+
+/**
+ *  Radxa ZERO GPIO numbering enum
+ */
+typedef enum {
+    RADXA_ZERO_PIN3 = 3,
+    RADXA_ZERO_PIN5 = 5,
+    RADXA_ZERO_PIN7 = 7,
+    RADXA_ZERO_PIN8 = 8,
+    RADXA_ZERO_PIN10 = 10,
+    RADXA_ZERO_PIN11 = 11,
+    RADXA_ZERO_PIN12 = 12,
+    RADXA_ZERO_PIN13 = 13,
+    RADXA_ZERO_PIN15 = 15,
+    RADXA_ZERO_PIN16 = 16,
+    RADXA_ZERO_PIN18 = 18,
+    RADXA_ZERO_PIN19 = 19,
+    RADXA_ZERO_PIN21 = 21,
+    RADXA_ZERO_PIN22 = 22,
+    RADXA_ZERO_PIN23 = 23,
+    RADXA_ZERO_PIN24 = 24,
+    RADXA_ZERO_PIN27 = 27,
+    RADXA_ZERO_PIN28 = 28,
+    RADXA_ZERO_PIN29 = 29,
+    RADXA_ZERO_PIN31 = 31,
+    RADXA_ZERO_PIN32 = 32,
+    RADXA_ZERO_PIN33 = 33,
+    RADXA_ZERO_PIN35 = 35,
+    RADXA_ZERO_PIN36 = 36,
+    RADXA_ZERO_PIN37 = 37,
+    RADXA_ZERO_PIN38 = 38,
+    RADXA_ZERO_PIN40 = 40
+} RadxaZeroWiring;
 
 /**
  * Radxa ROCK 5 Model A GPIO numbering enum

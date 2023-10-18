@@ -71,6 +71,7 @@ Specific platform information for supported platforms is documented here:
 - @ref radxa_rock_5a
 - @ref radxa_rock_5b
 - @ref rockpi4
+- @ref radxa_zero
 
 ## DEBUGGING
 
