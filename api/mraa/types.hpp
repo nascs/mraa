@@ -67,6 +67,7 @@ typedef enum {
     VISIONFIVE = 28,           /**< StarFive VisionFive board */
     RADXA_ROCK_5A = 29,        /**< Radxa ROCK 5 Model A */
     RADXA_ROCK_5B = 30,        /**< Radxa ROCK 5 Model B */
+    MRAA_RADXA_ZERO2 = 38,        /**< Radxa Zero2 */
 
     FTDI_FT4222 = 256,         /**< FTDI FT4222 USB to i2c bridge */
 
