@@ -70,6 +70,7 @@ typedef enum {
     ORANGE_PI_PRIME = 31,      /**< Orange Pi Prime board */
     RADXA_ROCK_3B = 32,        /**< Radxa ROCK 3 Model B */
     RADXA_CM3 = 33,            /**< Radxa CM3 */
+    RADXA_ROCK_PI_S = 43,      /**< Radxa ROCK PI S */
 
     FTDI_FT4222 = 256,         /**< FTDI FT4222 USB to i2c bridge */
 
@@ -173,6 +174,40 @@ typedef enum {
     INTEL_EDISON_GP80 = 54,
     INTEL_EDISON_GP81 = 55
 } IntelEdison;
+
+/**
+ * Radxa ROCK PI S GPIO numbering enum
+ */
+typedef enum {
+    RADXA_ROCK_PI_S_PIN3 = 3,
+    RADXA_ROCK_PI_S_PIN5 = 5,
+    RADXA_ROCK_PI_S_PIN7 = 7,
+    RADXA_ROCK_PI_S_PIN8 = 8,
+    RADXA_ROCK_PI_S_PIN10 = 10,
+    RADXA_ROCK_PI_S_PIN11 = 11,
+    RADXA_ROCK_PI_S_PIN12 = 12,
+    RADXA_ROCK_PI_S_PIN13 = 13,
+    RADXA_ROCK_PI_S_PIN15 = 15,
+    RADXA_ROCK_PI_S_PIN16 = 16,
+    RADXA_ROCK_PI_S_PIN18 = 18,
+    RADXA_ROCK_PI_S_PIN19 = 19,
+    RADXA_ROCK_PI_S_PIN21 = 21,
+    RADXA_ROCK_PI_S_PIN22 = 22,
+    RADXA_ROCK_PI_S_PIN23 = 23,
+    RADXA_ROCK_PI_S_PIN24 = 24,
+    RADXA_ROCK_PI_S_PIN28 = 28,
+    RADXA_ROCK_PI_S_PIN30 = 30,
+    RADXA_ROCK_PI_S_PIN32 = 32,
+    RADXA_ROCK_PI_S_PIN34 = 34,
+    RADXA_ROCK_PI_S_PIN39 = 39,
+    RADXA_ROCK_PI_S_PIN40 = 40,
+    RADXA_ROCK_PI_S_PIN41 = 41,
+    RADXA_ROCK_PI_S_PIN42 = 42,
+    RADXA_ROCK_PI_S_PIN43 = 43,
+    RADXA_ROCK_PI_S_PIN44 = 44,
+    RADXA_ROCK_PI_S_PIN45 = 45,
+    RADXA_ROCK_PI_S_PIN46 = 46
+} RadxaRockPISWiring;
 
 /**
  * Radxa ROCK 5 Model A GPIO numbering enum
