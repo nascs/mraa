@@ -76,6 +76,7 @@ typedef enum {
     MRAA_ORANGE_PI_PRIME = 31,      /**< Orange Pi Prime board */
     MRAA_RADXA_ROCK_3B = 32,        /**< Radxa ROCK 3 Model B */
     MRAA_RADXA_CM3 = 33,            /**< Radxa CM3 */
+    MRAA_RADXA_S0 = 44,             /**< Radxa S0 */
 
     // USB platform extenders start at 256
     MRAA_FTDI_FT4222 = 256,         /**< FTDI FT4222 USB to i2c bridge */
@@ -182,6 +183,40 @@ typedef enum {
     MRAA_INTEL_EDISON_GP80 = 54,
     MRAA_INTEL_EDISON_GP81 = 55
 } mraa_intel_edison_t;
+
+/**
+ * Radxa S0 GPIO numbering enum
+ */
+typedef enum {
+    MRAA_RADXA_S0_PIN3 = 3,
+    MRAA_RADXA_S0_PIN5 = 5,
+    MRAA_RADXA_S0_PIN7 = 7,
+    MRAA_RADXA_S0_PIN8 = 8,
+    MRAA_RADXA_S0_PIN10 = 10,
+    MRAA_RADXA_S0_PIN11 = 11,
+    MRAA_RADXA_S0_PIN12 = 12,
+    MRAA_RADXA_S0_PIN13 = 13,
+    MRAA_RADXA_S0_PIN15 = 15,
+    MRAA_RADXA_S0_PIN16 = 16,
+    MRAA_RADXA_S0_PIN18 = 18,
+    MRAA_RADXA_S0_PIN19 = 19,
+    MRAA_RADXA_S0_PIN21 = 21,
+    MRAA_RADXA_S0_PIN22 = 22,
+    MRAA_RADXA_S0_PIN23 = 23,
+    MRAA_RADXA_S0_PIN24 = 24,
+    MRAA_RADXA_S0_PIN26 = 26,
+    MRAA_RADXA_S0_PIN27 = 27,
+    MRAA_RADXA_S0_PIN28 = 28,
+    MRAA_RADXA_S0_PIN29 = 29,
+    MRAA_RADXA_S0_PIN31 = 31,
+    MRAA_RADXA_S0_PIN32 = 32,
+    MRAA_RADXA_S0_PIN33 = 33,
+    MRAA_RADXA_S0_PIN35 = 35,
+    MRAA_RADXA_S0_PIN36 = 36,
+    MRAA_RADXA_S0_PIN37 = 37,
+    MRAA_RADXA_S0_PIN38 = 38,
+    MRAA_RADXA_S0_PIN40 = 40
+} mraa_radxa_s0_wiring_t;
 
 /**
  * Radxa ROCK 5 Model A GPIO numbering enum

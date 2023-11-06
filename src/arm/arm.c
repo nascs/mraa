@@ -15,6 +15,7 @@
 #include "arm/radxa_rock_3c.h"
 #include "arm/radxa_rock_5a.h"
 #include "arm/radxa_rock_5b.h"
+#include "arm/radxa_s0.h"
 #include "arm/rockpi4.h"
 #include "arm/de_nano_soc.h"
 #include "arm/banana.h"
@@ -109,6 +110,8 @@ mraa_arm_platform()
             platform_type = MRAA_RADXA_ROCK_5A;
         else if (mraa_file_contains("/proc/device-tree/model", PLATFORM_NAME_RADXA_ROCK_5B))
             platform_type = MRAA_RADXA_ROCK_5B;
+        else if (mraa_file_contains("/proc/device-tree/model", PLATFORM_NAME_RADXA_S0))
+            platform_type = MRAA_RADXA_S0;
         else if (mraa_file_contains("/proc/device-tree/model", "ROCK Pi 4") ||
                  mraa_file_contains("/proc/device-tree/model", "ROCK PI 4") ||
                  mraa_file_contains("/proc/device-tree/model", "ROCK 4")
@@ -154,6 +157,9 @@ mraa_arm_platform()
             break;
         case MRAA_RADXA_ROCK_5B:
             plat = mraa_radxa_rock_5b();
+            break;
+        case MRAA_RADXA_S0:
+            plat = mraa_radxa_s0();
             break;
         case MRAA_ROCKPI4:
             plat = mraa_rockpi4();
