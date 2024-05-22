@@ -55,9 +55,17 @@ mraa_radxa_rock_5a()
     b->no_bus_mux = 1;
     b->phy_pin_count = MRAA_RADXA_ROCK_5A_PIN_COUNT + 1;
 
+    if (mraa_file_contains("/proc/device-tree/model", PLATFORM_NAME_RADXA_ROCK_5A)) {
+        b->platform_name = PLATFORM_NAME_RADXA_ROCK_5A;
+    } else if (mraa_file_contains("/proc/device-tree/model", PLATFORM_NAME_RADXA_ROCK_5C)) {
+        b->platform_name = PLATFORM_NAME_RADXA_ROCK_5A;
+    } else {
+        printf("An unknown product detected. Fail early...\n");
+        exit(-1);
+    }
+
     // UART
     b->uart_dev_count = MRAA_RADXA_ROCK_5A_UART_COUNT;
-    b->platform_name = PLATFORM_NAME_RADXA_ROCK_5A;
     b->def_uart_dev = 0;
     b->uart_dev[0].index = 2;
     b->uart_dev[1].index = 4;
