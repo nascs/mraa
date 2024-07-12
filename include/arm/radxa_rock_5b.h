@@ -21,6 +21,7 @@ extern "C" {
 #define MRAA_RADXA_ROCK_5B_AIO_COUNT  1
 #define MRAA_RADXA_ROCK_5B_PIN_COUNT  40
 #define PLATFORM_NAME_RADXA_ROCK_5B   "Radxa ROCK 5B"
+#define PLATFORM_NAME_RADXA_ROCK_5B_PLUS   "Radxa ROCK 5B+"
 
 mraa_board_t *
         mraa_radxa_rock_5b();

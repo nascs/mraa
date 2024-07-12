@@ -114,7 +114,8 @@ mraa_arm_platform()
             platform_type = MRAA_RADXA_ROCK_3C;
         else if (mraa_file_contains("/proc/device-tree/model", PLATFORM_NAME_RADXA_ROCK_5A))
             platform_type = MRAA_RADXA_ROCK_5A;
-        else if (mraa_file_contains("/proc/device-tree/model", PLATFORM_NAME_RADXA_ROCK_5B))
+        else if (mraa_file_contains("/proc/device-tree/model", PLATFORM_NAME_RADXA_ROCK_5B) ||
+                 mraa_file_contains("/proc/device-tree/model", PLATFORM_NAME_RADXA_ROCK_5B_PLUS))
             platform_type = MRAA_RADXA_ROCK_5B;
         else if (mraa_file_contains("/proc/device-tree/model", PLATFORM_NAME_RADXA_CM5_IO))
             platform_type = MRAA_RADXA_CM5_IO;

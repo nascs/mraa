@@ -1,7 +1,7 @@
-Radxa ROCK 5 Model B {#_Radxa}
-====================
+Radxa ROCK 5B/5B+ {#_Radxa}
+===========================
 
-Radxa ROCK 5 Model B is a Rockchip RK3588 based SBC(Single Board Computer) by Radxa. It can run Android or Linux. Radxa ROCK 5 Model B features a four core ARM processor, 64bit dual channel 5500Mb/s LPDDR5, HDMI up to 8K60fps, MIPI DSI, MIPI CSI, 3.5mm combo audio jack, Wi-Fi 6, Bluetooth 5.0, USB, GbE LAN, and 40-pin color expansion header. Radxa ROCK 5 Model B is powered by the USB Type-C port, and supports 5V input only. The recommended power adapter is 5V/3A without SSD, or 5V/5A with SSD.
+Radxa ROCK 5B/5B+ is a Rockchip RK3588 based SBC(Single Board Computer) by Radxa. It can run Android or Linux. Radxa ROCK 5B/5B+ features a four core ARM processor, 64bit dual channel 5500Mb/s LPDDR5, HDMI up to 8K60fps, MIPI DSI, MIPI CSI, 3.5mm combo audio jack, Wi-Fi 6, Bluetooth 5.0, USB, GbE LAN, and 40-pin color expansion header. Radxa ROCK 5B/5B+ is powered by the USB Type-C port, and supports 5V input only. The recommended power adapter is 5V/3A without SSD, or 5V/5A with SSD.
 
 Interface notes
 ---------------
@@ -12,7 +12,7 @@ Interface notes
 Pin Mapping
 -----------
 
-Radxa ROCK 5 Model B has a 40-pin expansion header. Each pin is distinguished by the color.
+Radxa ROCK 5B/5B+ has a 40-pin expansion header. Each pin is distinguished by the color.
 
 |  Function5|    Function4|    Function3|    Function2|  Function1|  PIN  |  PIN  | Function1|    Function2|   Function3|   Function4|
 |-----------|-------------|-------------|-------------|-----------|:------|------:|----------|-------------|------------|------------|
