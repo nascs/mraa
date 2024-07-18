@@ -1052,7 +1052,7 @@ mraa_file_contains(const char* filename, const char* content)
             return 0;
         }
         while ((getline(&line, &len, fh) != -1) && (found == 0)) {
-            if (strstr(line, content)) {
+            if (strncmp(line, content, strlen(line)) == 0) {
                 found = 1;
                 break;
             }
