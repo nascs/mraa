@@ -160,7 +160,7 @@ mraa_radxa_rock_5b()
     mraa_radxa_rock_5b_pininfo(b, 12, 3, 13, (mraa_pincapabilities_t){1,1,1,0,0,0,0,1}, "GPIO3_B5");
     mraa_radxa_rock_5b_pininfo(b, 13, 3, 15, (mraa_pincapabilities_t){1,1,0,0,1,1,0,0}, "GPIO3_B7");
     mraa_radxa_rock_5b_pininfo(b, 14, -1, -1, (mraa_pincapabilities_t){1,0,0,0,0,0,0,0}, "GND");
-    mraa_radxa_rock_5b_pininfo(b, 15, 3, 16, (mraa_pincapabilities_t){1,0,0,0,1,1,0,1}, "GPIO3_C0");
+    mraa_radxa_rock_5b_pininfo(b, 15, 3, 16, (mraa_pincapabilities_t){1,1,0,0,1,1,0,1}, "GPIO3_C0");
     mraa_radxa_rock_5b_pininfo(b, 16, 3, 4, (mraa_pincapabilities_t){1,1,0,0,1,0,0,0}, "GPIO3_A4");
     mraa_radxa_rock_5b_pininfo(b, 17, -1, -1, (mraa_pincapabilities_t){1,0,0,0,0,0,0,0}, "3V3");
     mraa_radxa_rock_5b_pininfo(b, 18, 4, 20, (mraa_pincapabilities_t){1,1,1,0,1,0,0,0}, "GPIO4_C4");
