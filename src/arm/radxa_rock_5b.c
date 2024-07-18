@@ -184,8 +184,7 @@ mraa_radxa_rock_5b()
     mraa_radxa_rock_5b_pininfo(b, 33, 3, 7, (mraa_pincapabilities_t){1,1,1,0,0,0,0,0}, "GPIO3_A7");
     mraa_radxa_rock_5b_pininfo(b, 34, -1, -1, (mraa_pincapabilities_t){1,0,0,0,0,0,0,0}, "GND");
     mraa_radxa_rock_5b_pininfo(b, 35, 3, 14, (mraa_pincapabilities_t){1,1,1,0,0,0,0,1}, "GPIO3_B6");
-    mraa_radxa_rock_5b_pininfo(b, 36, 3, 9, (mraa_pincapabilities_t){1,1,1,0,0,0,0,1}, "GPIO3_B1");
-    mraa_radxa_rock_5b_pininfo(b, 37, -1, -1, (mraa_pincapabilities_t){1,0,0,0,0,0,1,0}, "NC");
+    mraa_radxa_rock_5b_pininfo(b, 36, 3, 9, (mraa_pincapabilities_t){1,1,1,0,0,0,0,1}, "GPIO3_B1"); 
     mraa_radxa_rock_5b_pininfo(b, 38, 3, 10, (mraa_pincapabilities_t){1,1,1,0,0,0,0,1}, "GPIO3_B2");
     mraa_radxa_rock_5b_pininfo(b, 39, -1, -1, (mraa_pincapabilities_t){1,0,0,0,0,0,0,0}, "GND");
     mraa_radxa_rock_5b_pininfo(b, 40, 3, 11, (mraa_pincapabilities_t){1,1,0,0,0,0,0,0}, "GPIO3_B3");
@@ -193,9 +192,11 @@ mraa_radxa_rock_5b()
     if(b->platform_name == PLATFORM_NAME_RADXA_ROCK_5B) {
         mraa_radxa_rock_5b_pininfo(b, 29, 1, 31, (mraa_pincapabilities_t){1,1,1,0,0,0,0,0}, "GPIO1_D7");
         mraa_radxa_rock_5b_pininfo(b, 31, 1, 15, (mraa_pincapabilities_t){1,1,1,0,0,0,0,0}, "GPIO1_B7");
+        mraa_radxa_rock_5b_pininfo(b, 37, -1, -1, (mraa_pincapabilities_t){1,0,0,0,0,0,1,0}, "NC");
     } else if(b->platform_name == PLATFORM_NAME_RADXA_ROCK_5B_PLUS) {
         mraa_radxa_rock_5b_pininfo(b, 29, 1, 3, (mraa_pincapabilities_t){1,1,1,0,0,1,0,0}, "GPIO1_A3");
         mraa_radxa_rock_5b_pininfo(b, 31, 1, 2, (mraa_pincapabilities_t){1,1,1,0,0,1,0,0}, "GPIO1_A2");
+        mraa_radxa_rock_5b_pininfo(b, 37, 0, 0, (mraa_pincapabilities_t){1,1,0,0,0,0,1,0}, "GPIO0_A0");
     }
 
     return b;
