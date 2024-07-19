@@ -70,12 +70,7 @@ mraa_radxa_rock_5b()
     b->uart_dev[3].device_path = (char*) radxa_rock_5b_serialdev[3];
 
     // I2C
-    if(b->platform_name == PLATFORM_NAME_RADXA_ROCK_5B) {
-         b->i2c_bus_count = MRAA_RADXA_ROCK_5B_I2C_COUNT;
-    } else if(b->platform_name == PLATFORM_NAME_RADXA_ROCK_5B_PLUS) {
-         b->i2c_bus_count = MRAA_RADXA_ROCK_5B_PLUS_I2C_COUNT;
-          b->i2c_bus[4].bus_id = 4;
-    }
+    b->i2c_bus_count = MRAA_RADXA_ROCK_5B_I2C_COUNT;
     b->def_i2c_bus = 0;
     b->i2c_bus[0].bus_id = 0;
     b->i2c_bus[1].bus_id = 1;
