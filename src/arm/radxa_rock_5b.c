@@ -116,12 +116,6 @@ mraa_radxa_rock_5b()
     b->pins[28].pwm.parent_id = 6;   // PWM6_M2
     b->pins[28].pwm.mux_total = 0;
     b->pins[28].pwm.pinmap = 0;
-    b->pins[29].pwm.parent_id = 15;   // PWM15_M3
-    b->pins[29].pwm.mux_total = 0;
-    b->pins[29].pwm.pinmap = 0;
-    b->pins[31].pwm.parent_id = 13;   // PWM13_M2
-    b->pins[31].pwm.mux_total = 0;
-    b->pins[31].pwm.pinmap = 0;
     b->pins[32].pwm.parent_id = 14;   // PWM14_M0
     b->pins[32].pwm.mux_total = 0;
     b->pins[32].pwm.pinmap = 0;
@@ -137,6 +131,25 @@ mraa_radxa_rock_5b()
     b->pins[38].pwm.parent_id = 3;   // PWM3_M1
     b->pins[38].pwm.mux_total = 0;
     b->pins[38].pwm.pinmap = 0;
+
+    if (mraa_file_contains("/proc/device-tree/model", PLATFORM_NAME_RADXA_ROCK_5B)) {
+        b->pins[29].pwm.parent_id = 15;   // PWM15_M3
+        b->pins[29].pwm.mux_total = 0;
+        b->pins[29].pwm.pinmap = 0;
+        b->pins[31].pwm.parent_id = 13;   // PWM13_M2
+        b->pins[31].pwm.mux_total = 0;
+        b->pins[31].pwm.pinmap = 0;
+    } else if (mraa_file_contains("/proc/device-tree/model", PLATFORM_NAME_RADXA_ROCK_5B_PLUS)) {
+        b->pins[29].pwm.parent_id = 1;   // PWM1_M2
+        b->pins[29].pwm.mux_total = 0;
+        b->pins[29].pwm.pinmap = 0;
+        b->pins[31].pwm.parent_id = 0;   // PWM0_M2
+        b->pins[31].pwm.mux_total = 0;
+        b->pins[31].pwm.pinmap = 0;
+    } else {
+        syslog(LOG_ERR, "An unknown product detected. Fail early...");
+        return NULL;
+    }
 
     b->aio_count = MRAA_RADXA_ROCK_5B_AIO_COUNT;
     b->adc_raw = 10;
