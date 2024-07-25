@@ -146,9 +146,6 @@ mraa_radxa_rock_5b()
         b->pins[31].pwm.parent_id = 0;   // PWM0_M2
         b->pins[31].pwm.mux_total = 0;
         b->pins[31].pwm.pinmap = 0;
-    } else {
-        syslog(LOG_ERR, "An unknown product detected. Fail early...");
-        return NULL;
     }
 
     b->aio_count = MRAA_RADXA_ROCK_5B_AIO_COUNT;
