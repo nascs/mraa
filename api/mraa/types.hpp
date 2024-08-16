@@ -73,6 +73,7 @@ typedef enum {
     RADXA_CM5_IO = 34,         /**< Radxa CM5 IO */
     RADXA_ROCK_3A = 35,        /**< Radxa ROCK 3 Model A */
     RADXA_E25 = 36,            /**< Radxa E25 */
+    RADXA_ROCK2 = 44,            /**< Radxa ROCK2 */
 
     FTDI_FT4222 = 256,         /**< FTDI FT4222 USB to i2c bridge */
 
@@ -464,6 +465,39 @@ typedef enum {
     ROCKPI4_PIN38 = 38,
     ROCKPI4_PIN40 = 40
 } RockPi4Wiring;
+
+/**
+ *  Radxa ROCK 2 GPIO numbering enum
+ */
+typedef enum {
+    RADXA_ROCK2_PIN3 = 3,
+    RADXA_ROCK2_PIN5 = 5,
+    RADXA_ROCK2_PIN7 = 7,
+    RADXA_ROCK2_PIN8 = 8,
+    RADXA_ROCK2_PIN10 = 10,
+    RADXA_ROCK2_PIN11 = 11,
+    RADXA_ROCK2_PIN12 = 12,
+    RADXA_ROCK2_PIN13 = 13,
+    RADXA_ROCK2_PIN15 = 15,
+    RADXA_ROCK2_PIN16 = 16,
+    RADXA_ROCK2_PIN18 = 18,
+    RADXA_ROCK2_PIN19 = 19,
+    RADXA_ROCK2_PIN21 = 21,
+    RADXA_ROCK2_PIN22 = 22,
+    RADXA_ROCK2_PIN23 = 23,
+    RADXA_ROCK2_PIN24 = 24,
+    RADXA_ROCK2_PIN26 = 26,
+    RADXA_ROCK2_PIN27 = 27,
+    RADXA_ROCK2_PIN28 = 28,
+    RADXA_ROCK2_PIN29 = 29,
+    RADXA_ROCK2_PIN31 = 31,
+    RADXA_ROCK2_PIN32 = 32,
+    RADXA_ROCK2_PIN33 = 33,
+    RADXA_ROCK2_PIN35 = 35,
+    RADXA_ROCK2_PIN36 = 36,
+    RADXA_ROCK2_PIN38 = 38,
+    RADXA_ROCK2_PIN40 = 40
+} RadxaRock2Wiring;
 
 /**
 * Raspberry PI Wiring compatible numbering enum
