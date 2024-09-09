@@ -125,7 +125,7 @@ mraa_radxa_rock_pi_s()
     mraa_radxa_rock_pi_s_pininfo(b, 19, 1, 23, (mraa_pincapabilities_t){1,1,0,0,1,0,0,1}, "GPIO1_C7");
     mraa_radxa_rock_pi_s_pininfo(b, 20, -1, -1, (mraa_pincapabilities_t){1,0,0,0,0,0,0,0}, "GND");
     mraa_radxa_rock_pi_s_pininfo(b, 21, 1, 22, (mraa_pincapabilities_t){1,1,0,0,1,0,0,1}, "GPIO1_C6");
-    mraa_radxa_rock_pi_s_pininfo(b, 22, 2, 7, (mraa_pincapabilities_t){1,0,0,0,0,0,0,0}, "GPIO2_A7");
+    mraa_radxa_rock_pi_s_pininfo(b, 22, 2, 7, (mraa_pincapabilities_t){1,1,0,0,0,0,0,0}, "GPIO2_A7");
     mraa_radxa_rock_pi_s_pininfo(b, 23, 1, 24, (mraa_pincapabilities_t){1,0,0,0,1,1,0,1}, "GPIO1_D0");
     mraa_radxa_rock_pi_s_pininfo(b, 24, 1, 25, (mraa_pincapabilities_t){1,0,0,0,0,0,0,0}, "GPIO1_D1");
     mraa_radxa_rock_pi_s_pininfo(b, 25, -1, -1, (mraa_pincapabilities_t){1,0,0,0,0,0,0,0}, "GND");
