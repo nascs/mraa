@@ -143,8 +143,8 @@ mraa_radxa_rock_pi_s()
     mraa_radxa_rock_pi_s_pininfo(b, 37, -1, -1, (mraa_pincapabilities_t){1,0,0,0,0,0,0,0}, "MICN7");
     mraa_radxa_rock_pi_s_pininfo(b, 38, -1, -1, (mraa_pincapabilities_t){1,0,0,0,0,0,0,0}, "MCIP7");
     mraa_radxa_rock_pi_s_pininfo(b, 39, 3, 13, (mraa_pincapabilities_t){1,1,0,0,1,1,0,1}, "GPOI3_B5");
-    mraa_radxa_rock_pi_s_pininfo(b, 40, 3, 12, (mraa_pincapabilities_t){1,1,0,0,1,1,0,1}, "GPOI3_B4");
-    mraa_radxa_rock_pi_s_pininfo(b, 41, 3, 11, (mraa_pincapabilities_t){1,1,0,0,1,0,0,0}, "GPOI3_B3");
+    mraa_radxa_rock_pi_s_pininfo(b, 40, 3, 12, (mraa_pincapabilities_t){1,0,0,0,1,1,0,1}, "GPOI3_B4");
+    mraa_radxa_rock_pi_s_pininfo(b, 41, 3, 11, (mraa_pincapabilities_t){1,0,0,0,1,0,0,0}, "GPOI3_B3");
     mraa_radxa_rock_pi_s_pininfo(b, 42, 3, 10, (mraa_pincapabilities_t){1,1,0,0,1,0,0,0}, "GPOI3_B2");
     mraa_radxa_rock_pi_s_pininfo(b, 43, 2, 12, (mraa_pincapabilities_t){1,1,0,0,0,0,0,0}, "GPIO2_B4");
     mraa_radxa_rock_pi_s_pininfo(b, 44, 2, 11, (mraa_pincapabilities_t){1,1,0,0,0,0,0,0}, "GPIO2_B3");
