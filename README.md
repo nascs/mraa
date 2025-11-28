@@ -49,6 +49,7 @@ ARM
 * [Radxa ROCK 3A](../master/docs/radxa_rock_3a.md)
 * [Radxa ROCK 3B](../master/docs/radxa_rock_3b.md)
 * [Radxa ROCK 3C](../master/docs/radxa_rock_3c.md)
+* [Radxa ROCK 4D](../master/docs/radxa_rock_4d.md)
 * [Radxa ROCK 5A](../master/docs/radxa_rock_5a.md)
 * [Radxa ROCK 5B](../master/docs/radxa_rock_5b.md)
 * [Radxa ZERO3](../master/docs/radxa_zero3.md)
